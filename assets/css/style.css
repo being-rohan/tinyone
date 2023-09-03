@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cointainer {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.row,
+.row:after,
+.row:before {
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.header {
+    background-color: #fcdb00;
+    padding: 60px 0 100px 0;
+}
+
+.navbar {
+    list-style: none;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+.navbar li a:link,
+.navbar li a:visited :after {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #010101;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0 30px;
+    height: 43px;
+    display: inline-block;
+    line-height: 43px;
+
+}
+
+.features {
+    margin-top: 95px;
+    margin-bottom: 162px;
+}
+
+.thumbnail i {
+    font-size: 40px;
+}
+
+.thumbnail h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #010101;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.thumbnail p {
+    font-size: 16px;
+    color: #898989;
+}
+
+footer {
+    background-color: #010101;
+    padding: 95px 0 135px 0;
+    width: 100%;
+}
+
+.footer h1 {
+    color: #fcdb00;
+    text-transform: lowercase;
+    margin-bottom: 23px;
+}
+
+.footer h3 {
+    margin-bottom: 40px;
+}
+
+.email {
+    height: 50px;
+    padding: 0 25px;
+    width: calc(100% *10/ 12);
+    border-radius: 5px;
+}
+
+.button {
+    color: #010101;
+    background-color: #fbdb00;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 0 35px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 125px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.foteerlinks {
+    color: #ffffff;
+    list-style: none;
+}
+
+.foteerlinks li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.anchor {
+    color: #ffffff;
+    list-style: none;
+}
+
+.anchor li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.email::placeholder {
+    color: #898989;
+}
+
+.form {
+    margin-bottom: 75px;
+}

@@ -1,0 +1,175 @@
+[class ^="col-"] {
+	float: left;
+	padding: 0 15px;
+}
+
+.col-1 {
+	width: calc(100% * 1 / 12);
+}
+
+.col-2 {
+	width: calc(100% * 2 / 12);
+}
+
+.col-3 {
+	width: calc(100% * 3 / 12);
+}
+
+.col-4 {
+	width: calc(100% * 4 / 12);
+
+}
+
+.col-5 {
+	width: calc(100% * 5 / 12);
+}
+
+.col-9 {
+	width: calc(100% * 9 / 12);
+}
+
+.col-10 {
+	width: calc(100% * 10 / 12);
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.pri-heading {
+	font-size: 32px;
+	font-weight: bold;
+	color: #010101;
+	margin-bottom: 27px;
+}
+
+.sec-heading {
+	font-size: 20px;
+	color: #313841;
+	font-weight: 400;
+	margin-bottom: 28px;
+}
+
+.paragraph {
+	font-size: 16px;
+	color: #555555;
+	font-weight: 400;
+}
+
+.brandicons,
+i {
+	font-size: 40px;
+	color: #010101;
+
+}
+
+.brandicons {
+	list-style: none;
+
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.mb70 {
+	margin-bottom: 70px;
+}
+
+.mb90 {
+	padding-bottom: 90px;
+}
+
+.pri-heading {
+	font-size: 32px;
+	font-weight: bold;
+	color: #010101;
+	margin-bottom: 22px;
+}
+
+.mb135 {
+	margin-bottom: 135px;
+}
+
+.sec-heading {
+	font-size: 22px;
+	font-weight: 400;
+	color: #313841;
+	margin-bottom: 24px;
+}
+
+.col-10 .pri-heading {
+	text-transform: capitalize;
+}
+
+.paragraph {
+	font-size: 16px;
+	color: #555555;
+	font-weight: 400;
+}
+
+.text {
+	text-align: center;
+}
+
+.inspiration {
+	margin-top: 90px;
+}
+
+.ipad {
+	padding-left: 76px;
+}
+
+.brandicons i {
+	font-size: 40px;
+	transition: all 0.4s ease-in-out;
+}
+
+.brandicons li {
+	display: inline-block;
+}
+
+.brandicons li a:link,
+.brandicons li a:visited {
+	display: inline-block;
+}
+
+.brandicons {
+	list-style: none;
+}
+
+ul.brandicons li {
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 41px;
+}
+
+.brandicons i:hover,
+.brandicons i:focus,
+.brandicons i:active {
+	transform: translateY(-20px) scale(1.3);
+	color: blue;
+}
+
+.bre,
+.socialicons i {
+	color: #fcdb00;
+	text-align: center;
+}
+
+.aplleanimation i {
+	transition: all .6s ease-in-out;
+}
+
+.aplleanimation i:hover,
+.aplleanimation i:focus,
+.aplleanimation i:active {
+	transform: rotate(360deg) scale(1.3);
+	color: blue;
+}
